@@ -1,16 +1,26 @@
-body{
-	margin:0px;
-	font-family:Helvetica;
-	color:white;
-	background-color: aliceblue;
-	line-height:1.5;
+.body{
+background-color: black;
+text-align: center;
+color: aliceblue;
 }
-.profile{
-float: right;
+.show{
+    background-color: navy;
+
+}
+.row{
+margin: top 100px;
+min-height: 100px;
+justify-content: space-between;
+
 }
 
-.info,.profile {
-	display:flex;
+.container{
+    background-color: navy;
+    color: aliceblue;
+}
+
+.jumbotron {
+    display:flex;
 	flex:4;
 	min-height:600px;
 	background-color: navy;
@@ -20,55 +30,17 @@ float: right;
 	align-content: center;
 	text-align: center;
 }
-.skills{
-
-    float:right
-}
-.skills{
-    background-color: navy;
-	width: 900px;
-    height: 500px;;
-    margin: 50px;
-    max-width: 800px;}
-
-.primary{
-	flex: 1;
-	background-color: navy;
-	width: 900px;
-	height: 250px;
-	margin: 5px;
-	float: left;
-	max-width: 600px;}
-.second{
-	background-color: navy;
-	width: 900px;
-	height: 700px;
-	float: left;
-	max-width: 600px;}
-
-.degree{
-	background-color: navy;
-	width: 900px;
-	height: 550px;
-	float: left;
-	max-width: 600px;}
-	
-
-.profile{
-
-
-
-	/*
+.info,.profile {
+    color: aliceblue;
 	display:flex;
 	flex:4;
 	min-height:600px;
 	background-color: navy;
 	font-size: x-large;
+	align-items: center;
 	display: block;
-	max-block-size: 200px;
-	text-decoration: solid;
-	justify-content: center;
-	font-display: center;
+	align-content: center;
+	text-align: center;}
 align-items: center;
 align-content: center;
 text-align: center;/*/
